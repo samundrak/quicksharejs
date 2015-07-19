@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var quickShare = require('./QuickShare');
-quickShare.setSharePath("/home/samundrak");
-quickShare.listPath = "/home";
+quickShare.setSharePath("/");
+quickShare.listPath = "/";
 quickShare.downloadPath = "/:downloads";
 
 
